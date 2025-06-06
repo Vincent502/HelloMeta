@@ -1,0 +1,45 @@
+{
+    "name": "InputXR",
+    "maps": [
+        {
+            "name": "XRDefaultInput",
+            "id": "d2a1f85e-945c-4162-abd1-49affe9e6433",
+            "actions": [
+                {
+                    "name": "Load Between Two Points",
+                    "type": "Button",
+                    "id": "a6b4cdf9-adfe-4915-8db6-9a404cc1a11b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bd2eb055-9d45-4025-9cb7-e138995440bf",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load Between Two Points",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "70a05b8d-30a7-4b30-84ba-3006ad25581d",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load Between Two Points",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "be.elab.tickcollection": {
+      "version": "https://github.com/EloiStree/OpenUPM_TickCollection.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f3790aab229abd5e58948e882eea07092219dd56"
+    },
     "com.meta.xr.mrutilitykit": {
       "version": "76.0.1",
       "depth": 1,
