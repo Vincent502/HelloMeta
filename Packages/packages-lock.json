@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "be.elab.debugdrawutility": {
+      "version": "https://github.com/EloiStree/2025_06_05_DebugDrawUtility.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ea2a82ab289c04434c2571c48d5fb9e0cb48f4d2"
+    },
+    "be.elab.gizmotools": {
+      "version": "https://github.com/EloiStree/2020_06_06_GizmoTools.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ba803a7608f13410a2824a0174f3e0417fd2c9f4"
+    },
     "be.elab.tickcollection": {
       "version": "https://github.com/EloiStree/OpenUPM_TickCollection.git",
       "depth": 0,

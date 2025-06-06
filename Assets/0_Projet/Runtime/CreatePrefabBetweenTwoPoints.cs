@@ -31,9 +31,15 @@ public class CreatePrefabBetweenTwoPoints : MonoBehaviour
         Vector3 up = Vector3.up;
         Vector3 directionX = m_endPoint.position - m_startPoint.position;
         Vector3 forward = Vector3.Cross(directionX, up);
-        
+
+        //verifie quel est l'axe du horizon ou vertical
+        //var sphere = m_startPoint.up;
+        //var resultUp = Vector3.Dot(up, sphere);
+
+
         Quaternion rotation = Quaternion.LookRotation(forward, up);
         created.transform.rotation = rotation;
+        
 
 
         m_onInstatiated.Invoke(created);

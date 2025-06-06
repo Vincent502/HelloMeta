@@ -1,3 +1,5 @@
+using Meta.XR.ImmersiveDebugger.UserInterface.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -17,7 +19,7 @@ namespace Vincent
 
         private void UpdatePosition()
         {
-
+            
             var distance = Vector3.Distance(m_leftHand.position, m_rightHand.position);
             if (distance != m_distanceBetween)
             {

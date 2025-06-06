@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "be.elab.debugdrawutility": "https://github.com/EloiStree/2025_06_05_DebugDrawUtility.git",
+    "be.elab.gizmotools": "https://github.com/EloiStree/2020_06_06_GizmoTools.git",
     "be.elab.tickcollection": "https://github.com/EloiStree/OpenUPM_TickCollection.git",
     "com.meta.xr.sdk.all": "76.0.1",
     "com.unity.ai.navigation": "2.0.6",
