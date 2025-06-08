@@ -1,7 +1,8 @@
 using UnityEngine;
 
-public class MaPremierLigne : MonoBehaviour
+public class TankMovement : MonoBehaviour
 {
+    #region variable declaration pour le tank
     public Vector3 m_direction;
     public Color m_color;
     public float m_duration;
@@ -10,9 +11,10 @@ public class MaPremierLigne : MonoBehaviour
     public float m_leftRightAngle;
     public float m_downToAngle;
     public float m_maxVerticalAngle;
+    #endregion
 
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (m_downToAngle < 0) m_downToAngle = 0;
