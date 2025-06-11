@@ -2,7 +2,10 @@
   "dependencies": {
     "be.elab.debugdrawutility": "https://github.com/EloiStree/2025_06_05_DebugDrawUtility.git",
     "be.elab.gizmotools": "https://github.com/EloiStree/2020_06_06_GizmoTools.git",
+    "be.elab.tellotoy": "https://github.com/EloiStree/2023_02_19_KidToyDroneTelloModeCode.git",
     "be.elab.tickcollection": "https://github.com/EloiStree/OpenUPM_TickCollection.git",
+    "be.elab.twopointsquadloader": "https://github.com/EloiStree/2025_06_05_TwoPointsQuadLoader.git",
+    "be.technocite.openbrushmeasure": "https://github.com/EloiStree/2025_05_20_MeasureOfTechnociteWithQuest3.git",
     "com.meta.xr.sdk.all": "76.0.1",
     "com.unity.ai.navigation": "2.0.7",
     "com.unity.collab-proxy": "2.8.2",

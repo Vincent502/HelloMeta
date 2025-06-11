@@ -11,8 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01_Project/Scene/MathScene.unity
     guid: 227b96ef3049ead4d868ec012e0bb06d
+  - enabled: 0
+    path: Assets/02_project/Scene/VincentTechno.unity
+    guid: 1084404cf4e26fe43b2d28fe0d4e6658
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: af6b74eeadad09747b61f176fcfb0aac, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: a10b2cb47a848f24a9932f76d7a521ab, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d55a584c4cf50ba47bcfd88f307160b4, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 328df15748fdd474cbe23e63c036cc65, type: 2}
   m_UseUCBPForAssetBundles: 0

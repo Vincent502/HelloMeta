@@ -145,6 +145,7 @@ PlayerSettings:
   - {fileID: 11400000, guid: 4b87048b07cde6f4f8e7c613ab43b0cd, type: 2}
   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   - {fileID: -944628639613478452, guid: af6b74eeadad09747b61f176fcfb0aac, type: 3}
+  - {fileID: -944628639613478452, guid: a10b2cb47a848f24a9932f76d7a521ab, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -552,7 +553,6 @@ PlayerSettings:
   - serializedVersion: 2
     m_BuildTarget: Android
     m_EncodingQuality: 1
-  m_BuildTargetGroupHDRCubemapEncodingQuality: []
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetGroupLoadStoreDebugModeSettings: []
   m_BuildTargetNormalMapEncoding:
