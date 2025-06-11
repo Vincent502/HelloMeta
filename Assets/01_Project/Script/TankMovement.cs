@@ -11,10 +11,11 @@ public class TankMovement : MonoBehaviour
     public float m_leftRightAngle;
     public float m_downToAngle;
     public float m_maxVerticalAngle;
+    public int playerID;  // ID du joueur lié à ce tank
     #endregion
 
 
-    
+
     void Update()
     {
         if (m_downToAngle < 0) m_downToAngle = 0;

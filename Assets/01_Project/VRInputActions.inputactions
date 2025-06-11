@@ -33,9 +33,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "fire",
+                    "name": "shoot",
                     "type": "Button",
                     "id": "c515212a-f08b-450c-ad79-59202861f0be",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "comfirme",
+                    "type": "Button",
+                    "id": "93489bc6-a927-4206-94ba-19466d886cc3",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -112,11 +121,33 @@
                 {
                     "name": "",
                     "id": "e68e667a-590d-434d-a2eb-7093a88ac881",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58dcfa15-4abc-4c01-b9f4-2fa750e2252d",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a0442014-2c28-49f4-923a-f6206684fe58",
                     "path": "<XRController>{RightHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "fire",
+                    "action": "comfirme",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

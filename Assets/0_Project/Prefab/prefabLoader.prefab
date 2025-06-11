@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2656337118946624133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4556845990876307599}
+  - component: {fileID: 6623783162085490147}
+  - component: {fileID: 6584465392954636184}
+  - component: {fileID: 3927376488608744845}
+  - component: {fileID: 7513077959634693950}
+  - component: {fileID: 1966466797730920091}
+  m_Layer: 0
+  m_Name: prefabLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4556845990876307599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2656337118946624133}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00481, y: -0.07027, z: -0.06467}
+  m_LocalScale: {x: 0.5, y: 0.05, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6623783162085490147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2656337118946624133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d524639fdf112d942b140091fd62c5bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_leftHand: {fileID: 0}
+  m_rightHand: {fileID: 0}
+  m_distanceBetween: 0.010988275
+  m_onDistanceChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6584465392954636184}
+        m_TargetAssemblyTypeName: Vincent.PrimitiveToString, Assembly-CSharp
+        m_MethodName: Relay
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3927376488608744845}
+        m_TargetAssemblyTypeName: LoadPrefabFromDistance, Assembly-CSharp
+        m_MethodName: SetDistance
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6584465392954636184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2656337118946624133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126c545ff991d354bbefbb194a0aab7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_onRelay:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
+        m_MethodName: DisplayText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_format: '{0:0.00}'
+--- !u!114 &3927376488608744845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2656337118946624133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc80ba369efbf54dad0d082911630d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_distance: 0
+  m_listOfPrefab:
+  - m_minRange: 0.34
+    m_maxRange: 0.37
+    m_prefab: {fileID: 2109909972362455408, guid: 5f2c8e8ae1d137949a8f4e6c050c494f, type: 3}
+  - m_minRange: 0.45
+    m_maxRange: 0.5
+    m_prefab: {fileID: 6386029115507250316, guid: d25278b61f77e8747b813b28df034b29, type: 3}
+  - m_minRange: 0.7
+    m_maxRange: 0.75
+    m_prefab: {fileID: 6386029115507250316, guid: 1adc655d9607f76489fd3c54fb886d0b, type: 3}
+  m_onPrefabRangeFound:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7513077959634693950}
+        m_TargetAssemblyTypeName: CreatePrefabBetweenTwoPoints, Assembly-CSharp
+        m_MethodName: SetPrefabAndCreated
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_lastPush: {fileID: 0}
+--- !u!114 &7513077959634693950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2656337118946624133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8dd062db9acd5244973f37d0e4dab4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_startPoint: {fileID: 0}
+  m_endPoint: {fileID: 0}
+  m_prefab: {fileID: 0}
+  m_onInstatiated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7513077959634693950}
+        m_TargetAssemblyTypeName: CreatePrefabBetweenTwoPoints, Assembly-CSharp
+        m_MethodName: KillQuickInTenSec
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1966466797730920091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2656337118946624133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6d4822d6e4adba4bb29960251a079ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inputAction: {fileID: 595267752222078793, guid: af6b74eeadad09747b61f176fcfb0aac, type: 3}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3927376488608744845}
+        m_TargetAssemblyTypeName: LoadPrefabFromDistance, Assembly-CSharp
+        m_MethodName: TryToCreateInRange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_isPressed: 0

@@ -1,5 +1,3 @@
-using Meta.XR.ImmersiveDebugger.UserInterface.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
